@@ -1,0 +1,1978 @@
+.nav-item{
+ padding-right: 20px;
+ 
+}
+.navbar-brand img{
+width: 40px;
+margin-top: 12%; 
+margin-right:600%;
+}
+.container-fluid{
+ position: fixed;
+  top: 0;
+   left: 0;
+    z-index: 9999;
+     width: 100%;
+      height: 45px;
+       background-color: white;
+  
+}
+
+#navbarNav{
+   
+margin-right: 5%;
+}
+.logoall{
+  display: flex;
+margin-top: 15%;
+margin-left: 40%;
+}
+@media screen and (max-width: 618px){
+  .logoall{
+    display: flex;
+  margin-top: 15%;
+  margin-left:20%;
+  }
+}
+@media screen and (max-width: 459px){
+  .logoall{
+    display: flex;
+  margin-top: 15%;
+  margin-left:10%;
+  width: 50px;
+  }
+}
+.logo{
+margin: 1%;
+}
+.logo input{
+  width: 100%;
+  border-radius: 10px;
+  }
+.logo p{
+    margin-top: 5%;
+    font-size: 12px;
+}
+.logo img{
+    width: 150px;
+}   
+.logo1 img{
+   width: 100px;
+   margin-top: 18%;
+   transform: 0.5s;
+}
+.logo1 img:hover{
+transform: translateX(30%);
+}
+.footer-area{
+    padding: 40px 0px;
+    background-color: #b8b7bb;
+    color: rgb(12, 9, 9);
+    margin-top: 15%;
+}
+.footer-area a{
+    text-decoration: none;
+}
+.footer-area .footer-heading{
+    font-size: 18px;
+    color: rgb(19, 12, 12);
+}
+.footer-area .footer-underline{
+    height: 1px;
+    width: 70px;
+    background-color: rgb(0, 0, 0);
+    margin: 10px 0px;
+}
+.copyright-area{
+    padding: 14px 0px;
+    background-color: #ece3e3;
+}
+.copyright-area p{
+    margin-bottom: 0px;
+    color: rgb(7, 5, 5);
+}
+.copyright-area .social-media{
+    text-align: end;
+}
+.copyright-area .social-media a{
+    margin: 0px 10px;
+    color: rgb(0, 0, 0);
+    width: 20px;
+}
+.row1 div{
+    font-size: 11px;
+}
+.yarketaben img{
+width: 130px;
+}
+.row1 {
+display: flex;
+margin-left: 20%;
+}
+.input-group-text img{
+width: 20px;
+}
+.input-group span{
+    margin-left: 5%;
+}
+.input-group-text{
+    width: 20%;
+}
+.form{
+    margin-top: 5%;
+    margin-right: 30%;
+    margin-left: 30%;
+    border: 0.5px solid rgb(168, 168, 168);
+}
+.input-group1{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+}
+
+
+
+.input-group1 input{
+   border-radius: 55px;
+    
+}
+
+
+.nav img {
+    margin-right: 600%;
+    
+}
+.sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 85%;
+    width: 140px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.3s;
+    
+}
+.sub-menu-wrap.open-menu{
+max-height: 345px;
+border: 0.5px solid rgb(158, 158, 158);
+z-index: 1;
+}
+.sub-menu{
+    background-image: url(/Frontend/templates/PHOTO/background.jpg);
+    padding: 2px;
+    margin: 1px;
+    
+}
+.sub-menu p{
+  text-align: right;
+  
+}
+.sub-menu-link {
+text-decoration: none;
+color: black;
+font-size: 13px;
+}
+.pic{
+  
+    display: flex;
+    margin-right:-20%;
+}
+
+
+.p{
+    margin-top: 5%;
+}
+.p1{
+    margin-top: -5%;
+}
+.right{
+  margin-left: 65%;
+}
+
+@media screen and (max-width: 1826px){
+  .right{
+    margin-left: 58%;
+  }
+}
+
+@media screen and (max-width: 1796px){
+  .right{
+    margin-left: 60%;
+  }
+}
+@media screen and (max-width: 1674px){
+  .right{
+    margin-left: 58%;
+  }
+}
+@media screen and (max-width: 1646px){
+  .right{
+    margin-left: 55%;
+  }
+}
+@media screen and (max-width: 1550px){
+  .right{
+    margin-left: 45%;
+  }
+}
+@media screen and (max-width: 1350px){
+  .right{
+    margin-left: 40%;
+  }
+}
+@media screen and (max-width: 1270px){
+  .right{
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 1130px){
+  .right{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1060px){
+  .right{
+    margin-left: 20%;
+  }
+}
+.right0{
+ margin-left: 90%;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+
+  
+  .popup {
+
+    margin: 70px auto;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    width: 40%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    z-index: 1;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  #popup1{
+    margin-top: 5.5%;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    z-index: 1;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+ 
+.boxs{
+display: flex;
+margin-right: 10%;
+justify-content: space-between;
+margin-left:10%;
+}
+.cardH{
+margin: 2%;
+width: 15rem;
+}
+.boxt{
+  color: #06D85F;
+  font-size: 15px;
+  text-align: center;
+}
+.boxt1{
+  font-size: 12px;
+  margin-left: 8%;
+}
+
+
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+  .form1{
+    margin-top: 5%;
+  }
+  .close{
+    margin-top: -5%;
+    margin-right: -5%;
+  }
+
+
+
+  .all{
+    display: inline-flexbox;  
+}
+.box2{
+  width: 80%;
+margin-left: 10%;
+}
+.input-group span{
+    margin-left: 5%;
+}
+.input-group-text{
+    width: 20%;
+}
+.yar img{
+    width: 130px;
+    margin-top: -1%;
+    margin-right: 1%;
+}
+.input-group1{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.form{
+    margin-top: 5%;
+    margin-right: 30%;
+    margin-left: 30%;
+    border: 0.5px solid rgb(168, 168, 168);
+}
+.navbar-brand img{
+    width: 40px;
+    margin-top: 12%; 
+    margin-right:450%;
+    }
+    #picv img{
+        margin-right:900%;
+    }
+  
+    .pic1{
+        display: flex;
+        margin-right: 15%;
+        margin-top: 3%;
+        justify-content: space-between;
+      }   
+      .pic1 a{
+        text-decoration: none;
+      } 
+      .pic1 p{
+        text-align: center;
+      } 
+.alighn{
+text-align: center;
+}
+
+      #navi{
+        margin-top: 0%;
+        margin-right: 17%;
+      }
+      .pic2{
+    margin-left: 10%;
+    } 
+    .pic2 img{
+       border-radius: 10px;
+        } 
+
+.btnbox{
+  display: flex;
+  font-size: 10px;
+}
+.btnbox a{
+  font-size: 10px;
+  margin: 2%;
+  margin-left: 5%;
+}
+.navbar-nav a{
+  transform: 0.5s;
+}
+.navbar-nav a:hover{
+ transform:translateY(30%)
+}
+@media only screen and ( max-width:950px ){
+    .pic1{
+        display: flex;
+        margin-right:8%;
+        margin-top: 10%;
+      }  
+      .pic2 img{
+      
+        width: 70px;
+        margin-left: 5%;
+         } 
+
+}
+@media only screen and ( max-width:1050px ){
+  #pic11{
+      display: flex;
+      margin-right:0%;
+      
+    }  
+   
+}
+
+
+@media only screen and ( max-width:440px ){
+    .pic1{
+        display: flex;
+        margin-right:5%;
+        margin-top: 10%;
+      }  
+      .pic2 img{
+        border-radius: 100px;
+        width: 40px;
+        margin-left: 5%;
+         } 
+
+}
+@font-face {
+  font-family: 'byekan';
+  src: url(B_Yekan/Yekan.ttf);
+  font-style: normal;
+  
+}
+.font{
+font-family: byekan;
+
+}
+#btn1{
+  margin-left: 20%;
+margin-right: 20%;
+margin-bottom: 5%;
+}
+.main-box{
+  display: flex;
+ margin-left: 20%;
+}
+.box-item{
+  border: 0.5px solid black;
+
+  background-color: black;
+  border-radius: 20px;
+}
+.box-title{
+  text-align: center;
+ color: white;
+}
+.box-number{
+  text-align: center;
+  color: white;
+}
+#navisa{
+  margin-bottom: 3%;
+  display: flex;
+}
+#navisa a{
+  margin-right: 85%;
+   color: blue;
+    text-decoration: none;
+}
+#entesharath{
+  display: flex;
+   margin-right: 15%; 
+   margin-top:10%;
+}
+#entesharath a{
+  margin-right:80% ;
+   color: blue;
+    text-decoration: none;
+}
+#mghe{
+  display: flex;
+  margin-right: 15%; 
+  margin-top:10%;
+}
+#mghe a{
+  margin-right:75% ;
+  color: blue;
+   text-decoration: none;
+}
+#boxh3r{
+  text-align: center;
+   margin-bottom: 15%;
+}
+#boxh4r{
+  text-align: center;
+}
+.serche{
+  margin-top: 5%;
+}
+@media only screen and ( max-width:402px ){
+ #resdel2{
+  display: none;
+ }
+}
+
+
+
+@media only screen and ( max-width:654px ){
+  #mghe a{
+    margin-right:65% ;
+    color: blue;
+     text-decoration: none;
+  }
+  #entesharath a{
+    margin-right:70% ;
+     color: blue;
+      text-decoration: none;
+  }
+  #navisa a{
+    margin-right: 80%;
+     color: blue;
+      text-decoration: none;
+  }
+}
+@media only screen and ( max-width:462px ){
+ 
+  #navisa a{
+    margin-right: 70%;
+     color: blue;
+      text-decoration: none;
+  }
+}
+
+@media only screen and ( max-width:433px ){
+  #mghe a{
+    margin-right:50% ;
+    color: blue;
+     text-decoration: none;
+  }
+  #entesharath a{
+    margin-right:55% ;
+     color: blue;
+      text-decoration: none;
+  }
+}
+.responsiv1{
+  display:none;
+}
+@media only screen and ( max-width:620px ){
+.responsiv1{
+  display: block;
+}
+.responsiv{
+  display:none;
+}
+
+}
+
+@media only screen and ( max-width:445px ){
+ 
+
+  .row1{
+   display: inline;
+  }
+ }
+#navbarNav{
+background-color: white;
+ }
+.responsiv{
+  text-align: center;
+}
+#boxh3{
+  margin-bottom: 3%;
+  text-align: center;
+}
+#boxh2{
+  margin-bottom:3%;
+  text-align: center;
+}
+#boxh1{
+  margin-bottom: 15%;
+  text-align: center;
+}
+
+  @media only screen and ( max-width:1404px ){
+    #boxh3{
+      margin-bottom: 15%;
+    }
+    #boxh2{
+      margin-bottom:15%;
+    }
+    #boxh1{
+      margin-bottom: 25%;
+    }
+  
+    }
+    @media only screen and ( max-width:1294px ){
+      #boxh3{
+        margin-bottom: 15%;
+      }
+      #boxh2{
+        margin-bottom:15%;
+      }
+      #boxh1{
+        margin-bottom: 17%;
+      }
+    
+      }
+    @media only screen and ( max-width:1074px ){
+      #boxh3{
+        margin-bottom: 25%;
+      }
+      #boxh2{
+        margin-bottom:5%;
+      }
+      #boxh1{
+        margin-bottom: 17%;
+      }
+     }
+     @media only screen and ( max-width:956px ){
+      #resdelet{
+        display: none;
+      }
+      #boxh2{
+        margin-bottom:15%;
+      }
+      #boxh1{
+        margin-bottom:25%;
+      }
+     }
+      @media only screen and ( max-width:926px ){
+       
+        #boxh2{
+          margin-bottom:15%;
+        }
+        #boxh1{
+          margin-bottom: 17%;
+        }
+       
+        }
+      @media only screen and ( max-width:854px ){
+       
+        #boxh2{
+          margin-bottom:15%;
+        }
+        #boxh1{
+          margin-bottom: 17%;
+        }
+        }
+        /* @media only screen and ( max-width:810px ){
+          #boxh2{
+            margin-bottom:15%;
+          }
+          #boxh1{
+            margin-bottom:17%;
+          }
+          } */
+          @media only screen and ( max-width:773px ){
+           
+            #boxh2{
+              margin-bottom:0%;
+            }
+            #boxh1{
+              margin-bottom:17%;
+            }
+            }
+         
+            #cardz{
+              margin-top: 20%;
+            }
+            .swiper {
+              width:80%;
+              height: 80%;
+              
+              z-index: 0;
+              margin-top: 20%;
+              margin-bottom: 0%;
+            }
+           
+            .swiper-slide {
+              text-align: center;
+              font-size: 18px;
+              background: #fff;
+      
+              /* Center slide text vertically */
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              display: flex;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              justify-content: center;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              -webkit-align-items: center;
+              align-items: center;
+        
+            }
+      
+            .swiper-slide img {
+              display: block;
+              width:100%;
+              height:100%;
+              object-fit: cover;
+              margin-top: 5%;
+            }
+
+
+/* mahsolat */
+          .name1 img{
+           margin-left: 5%;
+          }  
+         
+.name div{
+  font-size: 15px;
+
+  }
+  .name p{
+      font-size: 15px;
+  }
+  .font{
+      font-family: byekan;
+      }
+  
+  .yar img{
+      width: 130px;
+      margin-top: 3%;
+      margin-left: 60%;
+   
+  }
+  .right2{ 
+      margin-left:50% ;
+  }
+  #picnav img{
+    width: 130px;
+  }
+  /* #picv img{
+    margin-right:900%;
+  } */
+  
+  @media screen and (max-width: 1675px){
+      .right2{
+        margin-left:45%;
+      }
+    }
+  @media screen and (max-width: 1565px){
+      .right2{
+        margin-left:35%;
+      }
+    }
+    @media screen and (max-width: 1395px){
+      .right2{
+        margin-left:25%;
+      }
+    }
+   
+    @media screen and (max-width: 1252px){
+      .right2{
+        margin-left:23%;
+      }
+    }
+    @media screen and (max-width: 1221px){
+      .right2{
+       font-size: 13px;
+      }
+      #picnav img{
+        width: 90px;
+      }
+   
+    }
+    @media screen and (max-width: 1188px){
+      .right2{
+        margin-left: 20%;
+        
+      }
+    }
+    @media screen and (max-width: 1110px){
+      .right2{
+        font-size: 13px;
+      }
+    
+  
+    }
+    @media screen and (max-width: 1097px){
+      .right2{
+        margin-left: 19%;
+        font-size: 11px;
+      }
+   
+    }
+    @media screen and (max-width: 1017px){
+      .right2{
+        margin-left: 18%;
+        font-size: 10px;
+      }
+     
+    }
+  
+    .swiper {
+      width:80%;
+      height: 80%;
+      margin-top: 1.5%;
+      z-index: 0;
+    }
+  
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+  
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+  
+    }
+  
+    .swiper-slide img {
+      display: block;
+      width:100%;
+      height:100%;
+      object-fit: cover;
+      margin-top: 5%;
+    }
+
+    /* mahsolat bala */
+
+
+    /* nasher */
+
+  .all{
+      display: inline-flexbox;  
+  }
+  .box2{
+    width: 80%;
+  margin-left: 10%;
+  }
+  .input-group span{
+      margin-left: 5%;
+  }
+  .input-group-text{
+      width: 20%;
+  }
+  .yar img{
+      width: 130px;
+      margin-top: 3%;
+      margin-left: 60%;
+   
+  }
+  
+  .input-group1{
+      margin-left: 30%;
+      margin-right: 30%;
+  }
+  .form{
+      margin-top: 5%;
+      margin-right: 30%;
+      margin-left: 30%;
+      border: 0.5px solid rgb(168, 168, 168);
+  }
+  .navbar-brand img{
+      width: 40px;
+      margin-top: 12%; 
+      margin-right:450%;
+      }
+      #picv img{
+          margin-right:600%;
+      }
+      .pic1{
+          display: flex;
+          margin-right:15%;
+          margin-left: 10%;
+          margin-top:3%;
+          text-align: center;
+          justify-content: space-between;
+        }   
+        .pic1 a{
+         text-decoration: none;
+        } 
+  
+        .pic2{
+      margin-left: 10%;
+       justify-content: space-between;
+      } 
+      .pic2 img{
+         border-radius: 100px;
+        
+          } 
+  
+  @media only screen and ( max-width:1050px ){
+      .pic1{
+          display: flex;
+          margin-right:15%;
+          margin-top: 5%;
+          justify-content: space-between;
+        }  
+        .pic2 img{
+          border-radius: 100px;
+          width: 70px;
+          margin-left: 5%;
+           } 
+  
+  }
+  @media only screen and ( max-width:453px ){
+      .pic1{
+          display: flex;
+          margin-right:15%;
+          margin-top: 5%;
+          justify-content: space-between;
+        }  
+        .pic2 img{
+          border-radius: 100px;
+          width: 40px;
+          margin-left: 15%;
+           } 
+  
+  }
+  
+  
+  @media only screen and ( max-width:355px ){
+      .pic1{
+          display: flex;
+          margin-right:5%;
+          margin-top: 5%;
+        }  
+        .pic2 img{
+          border-radius: 100px;
+          width: 40px;
+          margin-left: 15%;
+           } 
+  
+  }
+  .font{
+      font-family: byekan;
+      }
+      .btnnasher{
+          margin-top: 10%;
+          margin-left: 45%;
+      }
+  
+      @media only screen and ( max-width:649px ){
+          .btnnasher{
+              margin-top: 10%;
+              margin-left: 40%;
+          }
+      }
+      @media only screen and ( max-width:429px ){
+          .btnnasher{
+              margin-top: 10%;
+              margin-left: 30%;
+          }
+      }
+      @media only screen and ( max-width:341px ){
+          .btnnasher{
+              margin-top: 10%;
+              margin-left: 25%;
+          }
+      }
+
+/* nasher bala */
+/* navisandeh */
+      .text1{
+        margin-left: 40%;
+        margin-top: 5%;
+        font-size: 14px;
+        }
+        .form{
+            border-radius: 33px;
+        }
+        #btn1 button{
+        border-radius: 44px;
+        }
+        .navbar-brand img{
+            width: 40px;
+            margin-top: 12%; 
+            margin-right:450%;
+         }
+        #picv img{
+                margin-right:600%;
+        }
+        .font{
+             font-family: byekan;
+        }
+        
+        /* navisandeh bala */
+        /* dastehbandi */
+        .picdastehbandi img{
+          width: 40px;
+          margin-left: 3%;
+        }
+        .picdastehbandi{
+          margin: 5%;
+         } 
+         .picdastehbandi a{
+          text-decoration: none;
+         } 
+         .font{
+          font-family: byekan;
+          }
+          /* dastehbandi bala */
+          /* darbareh */
+          .text11{
+            background-color: rgb(240, 240, 240);
+            margin: 5%;
+            border-radius: 50px;
+        }
+        .text11 p{
+            margin-right: 3%;
+            margin-left: 3%;
+        }
+        .text11 h5{
+           margin-bottom: 3%;
+            margin-right: 45%;
+        }
+        .navbar-brand img{
+            width: 40px;
+            margin-top: 12%; 
+            margin-right:450%;
+            }
+            #picv img{
+                margin-right:600%;
+            }
+            .font{
+                font-family: byekan;
+                }
+                /* darbareh bala */
+             /* tamas */
+             
+.location{
+  display: flex;
+}
+
+
+
+.location img{
+  width: 45px;
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+.location div{
+  margin-right: 3%;
+  margin-top: 1%;
+}
+
+
+.telephon{
+  display: flex;
+}
+
+.telephon img{
+  width: 50px;
+  border-radius: 20px;
+  margin-right: 5%;
+}
+
+
+.telephon div{
+  margin-right: 3%;
+  margin-top: 1%;
+}
+.email{
+  display: flex;
+}
+
+.email img{
+  width: 50px;
+  margin-right: 5%;
+}
+
+.email div{
+  margin-right: 3%;
+  margin-top: 1%;
+}
+.text{
+  margin: 2%;
+  margin-right: 3%;
+}
+
+.mb-3{
+  margin-left: 10%;
+  margin-right: 10%;
+ margin-top: 5%;
+ border-radius: 40px;
+}  
+
+.btttn{
+margin-left: 20%;
+margin-right: 10%;
+margin-bottom: 5%;
+} 
+.massage{
+  display: flex;
+}
+
+.massage img{
+  width: 40px;
+  margin-right: 3%;
+  margin-top: 3%;
+}
+.massage div{
+  margin-right: 3%;
+  margin-top: 3%;
+}
+.map iframe{
+width: 30rem;
+height: 30rem;
+margin-left: 5%;
+}
+.allboxs{
+  display: flex;
+  margin-left: 10%;
+}
+.twocard1{
+  margin-left: 8%;
+  justify-content: space-between;
+}
+.ertebatcard{
+  margin-bottom: 3%;
+  margin-top: 8%;
+  width: 30rem;
+}
+.emailcard{
+  width: 30rem;
+}
+@media screen and (max-width: 2200px){
+  .allboxs{
+      display: flex;
+      margin-left: 20%;
+  }
+}
+@media screen and (max-width: 1641px){
+  .allboxs{
+      display: flex;
+      margin-left: 10%;
+  }
+}
+@media screen and (max-width: 1070px){
+  .allboxs{
+      display: block;
+      margin-left: 20%;
+  }
+  .twocard1{
+   margin-left: 5%;
+      justify-content: space-between;
+  }
+  .map iframe{
+      width: 20rem;
+      height: 20rem;
+      margin-left: 5%;
+      }
+      .ertebatcard{
+          margin-bottom: 3%;
+          margin-top: 8%;
+          width: 20rem;
+      }
+      .emailcard{
+          width: 20rem;
+      }
+}
+@media screen and (max-width: 440px){
+  .allboxs{
+      display: block;
+      margin-left: 10%;
+  }
+  .twocard1{
+   margin-left: 5%;
+      justify-content: space-between;
+  }
+  .map iframe{
+      width: 20rem;
+      height: 20rem;
+      margin-left: 5%;
+      }
+      .ertebatcard{
+          margin-bottom: 3%;
+          margin-top: 8%;
+          width: 20rem;
+      }
+      .emailcard{
+          width: 20rem;
+      }
+}
+.nazar{
+  font-size:13px;
+   margin:3% ;
+}
+/* tamas bala */
+/* mosabegheh */
+#picv img{
+  margin-right:600%;
+}
+.top{
+  display: flex;
+  margin-left: 40%;
+}
+.input1{
+  display: flex;
+}
+.responsio1{
+  display: none;
+}
+@media only screen and ( max-width:620px ){
+  .input1{
+      display: flex;
+   
+  }
+  .top{
+      display: block;
+      margin-left: 30%;
+     
+  }
+  .responsio1{
+      display: block;
+  }
+  .responsio{
+      display: none;
+  }
+}
+
+.pbox{
+  margin-bottom: 15%;
+  text-align: center;
+}
+.pbox1{
+  margin-bottom: 15%;
+  text-align: center;
+}
+.pbox2{
+  text-align: center;
+}
+.pbox3{
+  text-align: center;
+}
+@media only screen and ( max-width:1506px ){
+  .pbox{
+      margin-bottom: 15%;
+  }
+  .pbox1{
+      margin-bottom:15%;
+  }
+}
+@media only screen and ( max-width:1414px ){
+  .pbox{
+      margin-bottom: 15%;
+  }
+  .pbox1{
+      margin-bottom:15%;
+  }
+}
+@media only screen and ( max-width:1395px ){
+  .pbox{
+      margin-bottom: 15%;
+  }
+  .pbox1{
+      margin-bottom:5%;
+  }
+}
+@media only screen and ( max-width:1275px ){
+  .pbox{
+      margin-bottom: 5%;
+  }
+  .pbox1{
+      margin-bottom:5%;
+  }
+}
+
+
+
+
+@media only screen and ( max-width:1085px ){
+  .pbox{
+    margin-bottom: 18%;
+}
+.pbox2{
+  margin-bottom: 18%;
+}
+.pbox1{
+    margin-bottom:18%;
+}
+.pbox3{
+  margin-bottom:0%;
+}
+}
+@media only screen and ( max-width:942px ){
+  .pbox{
+    margin-bottom: 18%;
+}
+.pbox2{
+  margin-bottom:3%;
+}
+.pbox1{
+    margin-bottom:18%;
+}
+.pbox3{
+  margin-bottom:0%;
+}
+}
+
+@media only screen and ( max-width:879px ){
+#res3{
+  display: none;
+}
+
+}
+@media only screen and ( max-width:874px ){
+  .pbox{
+    margin-bottom: 18%;
+}
+.pbox2{
+  margin-bottom:18%;
+}
+.pbox1{
+    margin-bottom:18%;
+}
+}
+@media only screen and ( max-width:675px ){
+  .pbox{
+    margin-bottom: 20%;
+}
+.pbox2{
+  margin-bottom:5%;
+}
+.pbox1{
+    margin-bottom:20%;
+}
+}
+
+
+/* @media only screen and ( max-width:869px ){
+  .pbox{
+      margin-top:25%;
+  }
+  .pbox1{
+      margin-top:25%;
+  }
+  .pbox2{
+      margin-top: 25%;
+  }
+}
+@media only screen and ( max-width:785px ){
+  .pbox{
+      margin-top:45%;
+  }
+  .pbox1{
+      margin-top:25%;
+  }
+  .pbox2{
+      margin-top: 25%;
+  }
+} */
+#boxr1{
+  margin-top: 25%;
+}
+@media only screen and ( max-width:360px ){
+ #boxr1{
+  margin-top: 50%;
+ }
+}
+/* mosabeghat bala */
+/* kharid */
+.mb-3{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.label{
+  display: flex;
+}
+.bt3n{
+margin-left: 35%;
+margin-right: 35%;
+margin-bottom: 5%;
+}
+.text1{
+margin-left: 40%;
+margin-top: 5%;
+font-size: 14px;
+}
+.label1{
+  margin-right:70% ;
+}
+.label2{
+  margin-right:58% ;
+}
+.label3{
+  margin-right:63% ;
+}
+.label4{
+  margin-right:65% ;
+  font-size: 13px;
+  color: red;
+}
+.form{
+  border-radius: 33px;
+}
+#btn1 button{
+border-radius: 35px;
+}
+.navbar-brand img{
+  width: 40px;
+  margin-top: 12%; 
+  margin-right:450%;
+}
+  #picv img{
+      margin-right:600%;
+  }
+.top{
+  display: flex;
+  margin-left: 35%;
+}
+.top img{
+  width: 20px;
+}
+.btn{
+margin-right: 15%;
+}
+.twocard{
+  display:flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1205px){
+  .twocard{
+      display:block;
+  }
+  .cashbox{
+      margin-right: 35%;
+      margin-top: 5%;
+      }
+  }
+  @media screen and (max-width: 469px){
+      .twocard{
+          display:block;
+      }
+      .cashbox{
+          margin-right: 9%;
+          margin-top: 5%;
+          }
+      }
+.box1{
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-top: 3%;
+  width: 55rem;
+  height:1px;
+  border-radius: 10px;
+
+}
+@media screen and (max-width: 985px){
+
+  .box1{
+      margin-left: 5% ;
+      margin-right: 10% ;
+      margin-top: 3%;
+      width: 45rem;
+      height:1px;
+      border-radius: 10px;
+  
+  }
+  
+  }
+  @media screen and (max-width: 801px){
+
+      .box1{
+          margin-left: 5% ;
+          margin-right: 10% ;
+          margin-top: 3%;
+          width: 35rem;
+          height:1px;
+          border-radius: 10px;
+      
+      }
+      .card1 p{
+ 
+          margin-top: 55%;
+          }
+          .top{
+              display: flex;
+              margin-left: 25%;
+          }
+      }
+      @media screen and (max-width: 633px){
+
+          .box1{
+              margin-left: 5% ;
+              margin-right: 3% ;
+              margin-top: 3%;
+              width: 35rem;
+              height:1px;
+              border-radius: 10px;
+          
+          }
+          .top{
+              display: flex;
+              margin-left: 15%;
+          }
+          }
+@media screen and (max-width: 552px){
+  .box1{
+      margin-left: 5% ;
+      margin-right: 3% ;
+      margin-top: 3%;
+      width: 33rem;
+      height:1px;
+      border-radius: 10px;
+  
+  }
+            
+}
+@media screen and (max-width: 546px){
+  .box1{
+      margin-left: 5% ;
+      margin-right: 0% ;
+      margin-top: 3%;
+      width: 31rem;
+      height:1px;
+      border-radius: 10px;
+  
+  }
+}             
+@media screen and (max-width: 500px){
+  .box1{
+      margin-left: 5% ;
+      margin-right: 0% ;
+      margin-top: 3%;
+      width: 29rem;
+      height:1px;
+      border-radius: 10px;
+  
+  }
+}  
+@media screen and (max-width: 466px){
+  .box1{
+      margin-left: 5% ;
+      margin-right: 0% ;
+      margin-top: 3%;
+      width:27rem;
+      height:1px;
+      border-radius: 10px;
+  
+  }
+  .toman p{
+      display: flex;
+      margin-right: 5%;
+      margin-top: 45%;
+  }
+.photokh{
+  width: 20px;
+  height: 80px;
+}
+#deletplus img{
+  margin-top:60% ;
+}
+#deletplus p{
+  margin-top:55% ;
+}
+.top{
+  display: flex;
+  margin-left: 10%;
+}
+}
+@media screen and (max-width: 429px){
+  .box1{
+      margin-left: 5% ;
+      margin-right: 0% ;
+      margin-top: 3%;
+      width:25rem;
+      height:1px;
+      border-radius: 10px;
+  
+  }
+  .toman p{
+      display: flex;
+      margin-right: 5%;
+      margin-top: 45%;
+  }
+.photokh{
+  width: 20px;
+  height: 80px;
+}
+
+}
+@media screen and (max-width: 398px){
+  .box1{
+      margin-left: 5% ;
+      margin-right: 0% ;
+      margin-top: 3%;
+      width:22rem;
+      height:1px;
+      border-radius: 10px;
+  
+  }
+  .toman p{
+      display: flex;
+      margin-right: 5%;
+      margin-top: 45%;
+  }
+.photokh{
+  width: 20px;
+  height: 80px;
+}
+#deletplus img{
+  margin-top:95% ;
+  width: 15px;
+}
+#deletplus p{
+  margin-top:85% ;
+}
+}
+
+.textp{
+display: flex;
+}
+.textp img{
+  width: 50px;
+  margin-left: 10%;
+}
+.ghavanin{
+  display: flex;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+.ghavanin p{
+ margin-right: 700px ;
+ color: blue;
+
+}
+.box2{
+  margin-left: 5% auto;
+  margin-right: 5%;
+  margin-top: 2%;
+  width: 55rem;
+  height:1px;
+  border-radius: 10px;
+}
+@media screen and (max-width:895px){
+  .box2{
+      margin-left: 5% auto;
+      margin-right: 5%;
+      margin-top: 2%;
+      width: 45rem;
+      height:1px;
+      border-radius: 10px;
+  }
+
+}
+@media screen and (max-width:743px){
+  .box2{
+      margin-left: 5% auto;
+      margin-right: 5%;
+      margin-top: 2%;
+      width: 35rem;
+      height:1px;
+      border-radius: 10px;
+  }
+
+}
+@media screen and (max-width:576px){
+  .box2{
+      margin-left: 5% auto;
+      margin-right: 0%;
+      margin-top: 2%;
+      width: 30rem;
+      height:1px;
+      border-radius: 10px;
+  }
+
+}
+@media screen and (max-width:456px){
+  .box2{
+      margin-left: 5% auto;
+      margin-right: 0%;
+      margin-top: 2%;
+      width: 25rem;
+      height:1px;
+      border-radius: 10px;
+  }
+
+}
+@media screen and (max-width:387px){
+  .box2{
+      margin-left: 5% auto;
+      margin-right: 0%;
+      margin-top: 2%;
+      width: 23rem;
+      height:1px;
+      border-radius: 10px;
+  }
+
+}
+.textp span{
+ font-size: 80px;
+  color: blue;
+  margin-left: 2%;
+  margin-top: -9%;
+}
+.div12{
+  display: block;
+  margin-left: 5% ;
+  justify-content: space-between;
+}
+.cashbox{
+margin-left: 5%;
+}
+.card1 img{
+width: 20px;
+height: 20px;
+margin-right:20%;
+margin-top: 15%;
+}
+.card1 p{
+ 
+  margin-top: 12%;
+  }
+.card1{
+  border-radius: 40px;
+  border: 0.5px solid white;
+  width: 9rem;
+  height:-1px;
+  background-color: white;
+  display: flex;
+margin-right:30% ;
+margin-top: 1%;
+}
+@media screen and (max-width: 800px){
+  .card1 img{
+      width: 20px;
+      height: 20px;
+      margin-right: 8%;
+      margin-top: 25%;
+      }
+
+  }
+
+.toman{
+  display: flex;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+.toman span{
+font-size: 13px;
+margin-right: 2%;
+margin-top: 2%;
+color: black;
+}
+.close img{
+width: 20px;
+margin-right: 485%;
+margin-top:200%;
+}
+@media screen and (max-width: 989px){
+  .close img{
+      width: 20px;
+      margin-right: 100%;
+      margin-top:150%;
+      }
+ 
+  }
+  @media screen and (max-width: 809px){
+      .close img{
+          width: 20px;
+          margin-right: 50%;
+          margin-top:90%;
+          }
+     
+      }
+      @media screen and (max-width: 400px){
+          .close img{
+              width: 20px;
+              margin-right: -50%;
+              margin-top:90%;
+              }
+         
+          }
+.font{
+  font-family: byekan;
+  }
+  #boxketabs{
+      background-color:rgb(247, 243, 243) ;
+  }
+  #ghimat{
+      margin-top: 9%;
+  }
+  /* kharid bala */
+  /* kharid2 */
+  .textp1{
+    font-size: 12px;
+    color: rgb(184, 187, 189);
+    margin-bottom: -3%;
+}
+.textp span{
+    font-size: 12px;
+} 
+.text{
+    display: flex;
+}
+.textp span{
+    font-size: 80px;
+     color: blue;
+     margin-left: 2%;
+     margin-top: -9%;
+ }
+ .font{
+    font-family: byekan;
+    }
+    .maghsad{
+        margin-right: 5%;
+    }
+    .taghr{
+        color: blue; 
+        margin-right:2%;
+    }
+   
+    .ravesh{
+        margin-right: 5%;
+        margin-top:3%;
+    }
+    .sefaresh{
+        font-size: 12px;
+         margin-right:3%;
+          margin-top:0.5%;
+    }
+    .raygan{
+        color: rgb(90, 252, 158);
+         margin-right: 60%;
+          font-size: 20px;
+    }
+    .hazineh{
+        margin-right: 5%;
+        font-size:13px;
+    }
+    #sabad1{
+        width: 18rem;
+        border-radius: 20px;
+    }
+    #sabad1 p{
+        margin-top: 9%;
+    }
+    #sabad1 button{
+        margin-top: 5%;
+        border-radius: 20px; 
+    }
+/* kharid2 */
+/* kharid3 */
+ .form-control1{
+  margin-left: 20%;
+  margin-right: 5%;
+  height: 150px;
+}
+.font{
+  font-family: byekan;
+  }
+  .khola{
+    margin-right: 5%;
+  }
+  #bk{
+    background-color:rgb(247, 243, 243) ;
+  }
+  .ne{
+    margin-right: 5%;margin-top:3%;
+  }
+  .cari{
+    font-size: 12px;
+     margin-right:3%; 
+     margin-top:0.5%;
+  }
+  .ray1{
+    color: rgb(90, 252, 158); 
+    margin-right: 60%; 
+    font-size: 20px;
+  }
+  .ad{
+    font-size: 15px;
+  }
+  /* kharid3 bala */
+  /* sabtenam */
+  .flex{
+    display: flex;
+}
+.form{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.pr input{
+    width:150%;
+}
+.navbar-brand img{
+    width: 40px;
+    margin-top: 12%; 
+    margin-right:450%;
+ }
+    #picv img{
+        margin-right:600%;
+    }
+    .font{
+        font-family: byekan;
+        }
+        @media screen and (max-width: 1100px){
+            .flex{
+                display: block;
+            }
+            .pr input{
+                width:100%;
+            }
+}
+@media screen and (max-width: 2100px){
+    .pr{
+       margin-right: 20%;
+    }
+}
+@media screen and (max-width: 1864px){
+    .pr{
+       margin-right: 17%;
+    }
+}
+@media screen and (max-width: 1561px){
+    .pr{
+       margin-right: 14%;
+    }
+}
+@media screen and (max-width: 1333px){
+    .pr{
+       margin-right: 12%;
+    }
+}
+@media screen and (max-width: 1196px){
+    .pr{
+       margin-right: 10%;
+    }
+}      
+.text1{
+    text-align: center;
+    margin-right: 40%;
+} 
+/* sabtenam bala */
+
+.bt3n{
+  margin-left: 25%;
+  margin-right: 15%;
+}
